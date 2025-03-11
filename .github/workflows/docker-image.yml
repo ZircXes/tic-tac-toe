@@ -29,5 +29,5 @@ jobs:
         name: cbkennedy/tictactoe:latest
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
-        tag_semver: 1.0.0
+        tag_semver: true
           
